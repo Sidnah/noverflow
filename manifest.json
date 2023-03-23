@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Noverflow",
+  "description": "Remove annoying scroll-blocking style",
+  "version": "1.0",
+  "action": {
+    "default_icon": {
+      "16": "images/default.png"
+    }
+  },
+  "icons": {
+    "16": "images/default.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ]
+}
